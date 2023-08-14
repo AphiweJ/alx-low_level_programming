@@ -1,6 +1,8 @@
 #include <stdio.h>
+
 /**
- * main: Program that prints a statement
+ * main - This program prints a statement with the use of puts
+ *
  * Return: 0 (Sucessful)
  */
 
