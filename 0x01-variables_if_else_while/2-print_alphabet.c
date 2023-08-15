@@ -13,6 +13,6 @@ int main(void)
 	{
 		putchar(print_alpha[i]);
 		putchar('\n');
-		return (0);
 	}
+	return (0);
 }
