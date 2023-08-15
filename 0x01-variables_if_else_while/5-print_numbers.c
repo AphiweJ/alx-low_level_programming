@@ -7,14 +7,14 @@
  */
 int main(void)
 {
-        char base10[] = "0123456789";
-        int i = 0;
+	char base10[] = "0123456789";
+	int i = 0;
 
-        while (base10[i] != '\0')
-        {
-                putchar(base10[i]);
-        i++;
-        }
-        putchar('\n');
-        return (0);
+	while (base10[i] != 0)
+	{
+		putchar(base10[i]);
+		i++;
+	}
+	putchar('\n');
+	return (0);
 }
