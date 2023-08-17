@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * main - Print alphabet in lowercase
+ * print_alphabetbet - Print alphabet in lowercase followed by a new line
  *
  * Return: 0 (Success)
  */
-int main(void)
+void print_alphabet(void)
 {
 	char alpha[] = "abcdefghijklmnopqrstuvwxyz";
 	int i = 0;
@@ -13,9 +13,9 @@ int main(void)
 	{
 
 		putchar(alpha[i]);
+		i++;
 
 	}
 
 	putchar('\n');
-	return (0);
 }
